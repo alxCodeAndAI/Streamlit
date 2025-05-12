@@ -12,6 +12,6 @@ lint:
 	pylint --disable=R,C *.py
 
 run:
-	python app.py
+	streamlit run app.py
 	
 all: install lint test format run
